@@ -4,8 +4,7 @@
 
 
 
-You can easily log in to your admob account and see your earnings on your phone.
-
+***You can easily log in to your admob account and see your earnings on your phone.***
 
 
 
