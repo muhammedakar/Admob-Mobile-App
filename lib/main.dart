@@ -13,7 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  String admobUrl='https://apps.admob.com/v2/home?_ga=2.225267486.546865541.1632737602-1631528274.1621404315';
+  String admobUrl='Your Admob URL';
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
