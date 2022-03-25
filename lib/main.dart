@@ -13,6 +13,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  String admobUrl='https://apps.admob.com/v2/home?_ga=2.225267486.546865541.1632737602-1631528274.1621404315';
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -23,9 +24,9 @@ class _MyAppState extends State<MyApp> {
           elevation: 0,
           backgroundColor: Colors.transparent,
         ),
-        body: const WebView(
+        body:  WebView(
           initialUrl:
-              'https://apps.admob.com/v2/home?_ga=2.225267486.546865541.1632737602-1631528274.1621404315',
+              admobUrl,
           javascriptMode: JavascriptMode.unrestricted,
         ),
       ),
