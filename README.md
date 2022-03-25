@@ -1,16 +1,31 @@
-# admob
+## Admob Mobile App
 
-A new Flutter project.
+You can easily log in to your admob account and see your earnings on your phone.
 
-## Getting Started
+### Setup
 
-This project is a starting point for a Flutter application.
+- First you have to install webview Library into your Project. To do this, you can write the following code block in your console
 
-A few resources to get you started if this is your first Flutter project:
+    ``flutter pub add webview_flutter``
+    
+- And finally you have to import it
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+    ``import 'package:webview_flutter/webview_flutter.dart';``
+    
+### Configure
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+you need to configure the following script
+
+    ``String admobUrl='You need to write yor admob URL in here';``
+
+this code is in Lib>main.dart
+
+### Build
+
+you need to write the following code block in your terminal
+
+    ``flutter build apk``
+
+Finally you can find this app on this path
+
+    ``YourProject/build/app/outputs/flutter-apk/app-release.apk``
