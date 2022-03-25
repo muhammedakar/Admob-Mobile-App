@@ -17,7 +17,7 @@ You can easily log in to your admob account and see your earnings on your phone.
     
 - And finally you have to import it
 
-    ``import 'package:webview_flutter/webview_flutter.dart';``
+        ``import 'package:webview_flutter/webview_flutter.dart';``
     
 ### Configure
 
